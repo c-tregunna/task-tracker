@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+    --color-light-gray: #f7f7f7;
+    --font-main: Raleway, sans-serif;
+}

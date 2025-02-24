@@ -377,6 +377,8 @@
     --default-mono-font-variation-settings: var(
       --font-mono--font-variation-settings
     );
+    --color-light-gray: #f7f7f7;
+    --font-main: Raleway, sans-serif;
   }
 }
 @layer base {
@@ -521,8 +523,11 @@
   }
 }
 @layer utilities {
-  .bg-amber-300 {
-    background-color: var(--color-amber-300);
+  .bg-light-gray {
+    background-color: var(--color-light-gray);
+  }
+  .font-main {
+    font-family: var(--font-main);
   }
 }
 @keyframes spin {
